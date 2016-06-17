@@ -1,0 +1,22 @@
+body {
+  color: #000;
+  margin: 0;
+}
+.box {
+  width: 50%;
+  min-height: 5rem;
+  margin: 0 auto;
+  color: #fe33ac;
+  border-color: #fdcdea;
+}
+.box > div {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+}
+.box > div > div {
+  color: blue;
+}
+.box > div > div h1 {
+  margin: 0 0 .5rem 0;
+}
